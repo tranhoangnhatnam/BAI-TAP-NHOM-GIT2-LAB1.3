@@ -1,3 +1,7 @@
 def tinh_diem_GPA(diem_so):
-  return 0.0
-  print("Diem GPA he 4 la:",tinh_diem_GPA(8.5))
+    if diem_so >= 8.5:
+        return 4.0
+    elif diem_so >= 7.0:
+        return 3.0
+    else:
+        return 2.0
